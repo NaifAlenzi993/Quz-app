@@ -1,0 +1,83 @@
+
+
+.root{
+    width: 95%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.ans {
+    margin: auto;
+    margin-top: 10px;
+    width: 50%;
+     display: grid;
+    grid-template-columns: auto auto; 
+}
+
+.ans div {
+    width: 80%;
+    font-size: 30px;
+    margin: 6px;
+}
+
+.answers {
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    margin-top: 5px;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0px 0px 10px black;
+}
+
+#answers-0:hover , #answers-1:hover ,#answers-2:hover ,#answers-3:hover {
+    background-color: rgba(0, 0, 0, 0.103);
+}
+
+
+
+#question{
+    width: 370px;
+    padding: 10px;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    box-shadow: 0px 0px 10px black;
+    background-color: rgba(255, 255, 255, 0.418);
+    font-size: 30px;
+}
+
+.questionLose{
+    width: 300px;
+    padding: 10px;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    border: 1px solid;
+    background-color: rgba(28, 153, 28, 0.418);
+    font-size: 30px;
+}
+
+.questionWin{
+    width: 300px;
+    padding: 10px;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    border: 1px solid;
+    background-color: rgba(153, 28, 28, 0.418);
+    font-size: 30px;
+}
+
+#question div {
+    font-size: 20px;
+}
+
+#btn{
+    padding: 10px;
+    font-size: 30px;
+}
+
+
+
+
